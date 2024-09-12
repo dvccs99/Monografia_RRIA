@@ -19,7 +19,7 @@ RUN sudo apt-get install ros-melodic-joint-trajectory-controller
 
 #  Source environments
 RUN echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc
-RUN echo 'source /monografia/catkin_ws/devel/setup.bash' >> ~/.bashrc
+RUN echo 'source /catkin_ws/devel/setup.bash' >> ~/.bashrc
 
 # Entrypoint
 ADD entrypoint.sh /entrypoint.sh
