@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/monografia/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp
+/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp
 ros/ros.h
 -
 gazebo_msgs/ModelState.h

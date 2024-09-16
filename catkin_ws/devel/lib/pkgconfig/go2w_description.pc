@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/devel
+prefix=/catkin_ws/devel
 
 Name: go2w_description
 Description: Description of go2w_description

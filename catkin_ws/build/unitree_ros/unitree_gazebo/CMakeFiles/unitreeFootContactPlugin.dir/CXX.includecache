@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/monografia/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
+/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
 string
 -
 gazebo/common/Events.hh

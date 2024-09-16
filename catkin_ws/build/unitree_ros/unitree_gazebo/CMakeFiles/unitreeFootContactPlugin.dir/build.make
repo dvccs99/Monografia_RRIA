@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /monografia/catkin_ws/src
+CMAKE_SOURCE_DIR = /catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /monografia/catkin_ws/build
+CMAKE_BINARY_DIR = /catkin_ws/build
 
 # Include any dependencies generated for this target.
 include unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/depend.make
@@ -58,17 +58,17 @@ include unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/progr
 include unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/flags.make
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/flags.make
-unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o: /monografia/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/monografia/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o -c /monografia/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
+unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o: /catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o"
+	cd /catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o -c /catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.i"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /monografia/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc > CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.i
+	cd /catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc > CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.i
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.s"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /monografia/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc -o CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.s
+	cd /catkin_ws/build/unitree_ros/unitree_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc -o CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.s
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o.requires:
 
@@ -88,169 +88,169 @@ unitreeFootContactPlugin_OBJECTS = \
 # External object files for target unitreeFootContactPlugin
 unitreeFootContactPlugin_EXTERNAL_OBJECTS =
 
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/build.make
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcontroller_manager.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libjoint_state_controller.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librealtime_tools.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librobot_state_publisher_solver.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libjoint_state_listener.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libkdl_parser.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/liburdf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libclass_loader.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/libPocoFoundation.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_bridge.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroslib.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librospack.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2_ros.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libactionlib.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libmessage_filters.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librostime.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcpp_common.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-transport4.so.4.0.0
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-msgs1.so.1.0.0
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-common1.so.1.0.1
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools1.so.1.0.0
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2_ros.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libactionlib.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libmessage_filters.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librostime.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcpp_common.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-math4.so.4.0.0
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libswscale.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libswscale.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavformat.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavformat.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavutil.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavutil.so
-/monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/monografia/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitreeFootContactPlugin.dir/link.txt --verbose=$(VERBOSE)
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/build.make
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcontroller_manager.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libjoint_state_controller.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librealtime_tools.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librobot_state_publisher_solver.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libjoint_state_listener.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libkdl_parser.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/liburdf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libclass_loader.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/libPocoFoundation.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_bridge.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroslib.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librospack.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2_ros.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libactionlib.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libmessage_filters.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librostime.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcpp_common.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-transport4.so.4.0.0
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-msgs1.so.1.0.0
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-common1.so.1.0.1
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools1.so.1.0.0
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2_ros.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libactionlib.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libmessage_filters.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libtf2.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/librostime.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /opt/ros/melodic/lib/libcpp_common.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-math4.so.4.0.0
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libswscale.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libswscale.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavformat.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavformat.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavutil.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: /usr/lib/x86_64-linux-gnu/libavutil.so
+/catkin_ws/devel/lib/libunitreeFootContactPlugin.so: unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /catkin_ws/devel/lib/libunitreeFootContactPlugin.so"
+	cd /catkin_ws/build/unitree_ros/unitree_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitreeFootContactPlugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/build: /monografia/catkin_ws/devel/lib/libunitreeFootContactPlugin.so
+unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/build: /catkin_ws/devel/lib/libunitreeFootContactPlugin.so
 
 .PHONY : unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/build
 
@@ -259,10 +259,10 @@ unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/requires: uni
 .PHONY : unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/requires
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/clean:
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/unitreeFootContactPlugin.dir/cmake_clean.cmake
+	cd /catkin_ws/build/unitree_ros/unitree_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/unitreeFootContactPlugin.dir/cmake_clean.cmake
 .PHONY : unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/clean
 
 unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/depend:
-	cd /monografia/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /monografia/catkin_ws/src /monografia/catkin_ws/src/unitree_ros/unitree_gazebo /monografia/catkin_ws/build /monografia/catkin_ws/build/unitree_ros/unitree_gazebo /monografia/catkin_ws/build/unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /catkin_ws/src /catkin_ws/src/unitree_ros/unitree_gazebo /catkin_ws/build /catkin_ws/build/unitree_ros/unitree_gazebo /catkin_ws/build/unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_ros/unitree_gazebo/CMakeFiles/unitreeFootContactPlugin.dir/depend
 

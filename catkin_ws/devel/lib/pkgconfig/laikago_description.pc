@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/devel
+prefix=/catkin_ws/devel
 
 Name: laikago_description
 Description: Description of laikago_description

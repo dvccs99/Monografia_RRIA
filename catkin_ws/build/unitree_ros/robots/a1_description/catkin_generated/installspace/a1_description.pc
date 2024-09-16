@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/install
+prefix=/catkin_ws/install
 
 Name: a1_description
 Description: Description of a1_description

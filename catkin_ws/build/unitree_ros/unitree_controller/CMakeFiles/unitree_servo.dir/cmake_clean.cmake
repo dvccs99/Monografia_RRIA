@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unitree_servo.dir/src/servo.cpp.o"
-  "/monografia/catkin_ws/devel/lib/unitree_controller/unitree_servo.pdb"
-  "/monografia/catkin_ws/devel/lib/unitree_controller/unitree_servo"
+  "/catkin_ws/devel/lib/unitree_controller/unitree_servo.pdb"
+  "/catkin_ws/devel/lib/unitree_controller/unitree_servo"
 )
 
 # Per-language clean rules from dependency scanning.

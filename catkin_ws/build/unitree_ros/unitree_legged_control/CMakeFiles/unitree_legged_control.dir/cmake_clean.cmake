@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o"
   "CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o"
-  "/monografia/catkin_ws/devel/lib/libunitree_legged_control.pdb"
-  "/monografia/catkin_ws/devel/lib/libunitree_legged_control.so"
+  "/catkin_ws/devel/lib/libunitree_legged_control.pdb"
+  "/catkin_ws/devel/lib/libunitree_legged_control.so"
 )
 
 # Per-language clean rules from dependency scanning.

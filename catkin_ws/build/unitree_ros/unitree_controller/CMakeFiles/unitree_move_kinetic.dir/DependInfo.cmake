@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/monografia/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp" "/monografia/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o"
+  "/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp" "/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/monografia/catkin_ws/src/unitree_ros/unitree_controller/include"
-  "/monografia/catkin_ws/devel/include"
+  "/catkin_ws/src/unitree_ros/unitree_controller/include"
+  "/catkin_ws/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"

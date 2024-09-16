@@ -1,8 +1,8 @@
-# Install script for directory: /monografia/catkin_ws/src/unitree_ros/robots/aliengo_description
+# Install script for directory: /catkin_ws/src/unitree_ros/robots/aliengo_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/monografia/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/monografia/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengo_description/cmake" TYPE FILE FILES
-    "/monografia/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_descriptionConfig.cmake"
-    "/monografia/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_descriptionConfig-version.cmake"
+    "/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_descriptionConfig.cmake"
+    "/catkin_ws/build/unitree_ros/robots/aliengo_description/catkin_generated/installspace/aliengo_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengo_description" TYPE FILE FILES "/monografia/catkin_ws/src/unitree_ros/robots/aliengo_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengo_description" TYPE FILE FILES "/catkin_ws/src/unitree_ros/robots/aliengo_description/package.xml")
 endif()
 

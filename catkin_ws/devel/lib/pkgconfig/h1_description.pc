@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/devel
+prefix=/catkin_ws/devel
 
 Name: h1_description
 Description: Description of h1_description

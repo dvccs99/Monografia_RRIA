@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/devel
+prefix=/catkin_ws/devel
 
 Name: b2_description
 Description: Description of b2_description

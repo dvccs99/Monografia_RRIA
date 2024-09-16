@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unitree_controller.dir/src/body.cpp.o"
-  "/monografia/catkin_ws/devel/lib/libunitree_controller.pdb"
-  "/monografia/catkin_ws/devel/lib/libunitree_controller.so"
+  "/catkin_ws/devel/lib/libunitree_controller.pdb"
+  "/catkin_ws/devel/lib/libunitree_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

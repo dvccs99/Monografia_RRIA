@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/monografia/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
+/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
 ros/ros.h
 -
 geometry_msgs/Wrench.h

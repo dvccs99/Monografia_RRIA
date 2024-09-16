@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o"
-  "/monografia/catkin_ws/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
-  "/monografia/catkin_ws/devel/lib/unitree_controller/unitree_move_kinetic"
+  "/catkin_ws/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
+  "/catkin_ws/devel/lib/unitree_controller/unitree_move_kinetic"
 )
 
 # Per-language clean rules from dependency scanning.

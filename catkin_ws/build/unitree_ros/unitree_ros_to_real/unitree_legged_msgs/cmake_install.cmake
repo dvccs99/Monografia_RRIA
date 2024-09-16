@@ -1,8 +1,8 @@
-# Install script for directory: /monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs
+# Install script for directory: /catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/monografia/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,68 +39,68 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/msg" TYPE FILE FILES
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/MotorCmd.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/MotorState.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/Cartesian.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/IMU.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LED.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LowCmd.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LowState.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/HighCmd.msg"
-    "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/HighState.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/MotorCmd.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/MotorState.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/Cartesian.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/IMU.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LED.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LowCmd.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/LowState.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/HighCmd.msg"
+    "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/HighState.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/cmake" TYPE FILE FILES "/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/cmake" TYPE FILE FILES "/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/monografia/catkin_ws/devel/include/unitree_legged_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/catkin_ws/devel/include/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/monografia/catkin_ws/devel/share/roseus/ros/unitree_legged_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/catkin_ws/devel/share/roseus/ros/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/monografia/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/monografia/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/monografia/catkin_ws/devel/lib/python2.7/dist-packages/unitree_legged_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/catkin_ws/devel/lib/python2.7/dist-packages/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/monografia/catkin_ws/devel/lib/python2.7/dist-packages/unitree_legged_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/catkin_ws/devel/lib/python2.7/dist-packages/unitree_legged_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/cmake" TYPE FILE FILES "/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/cmake" TYPE FILE FILES "/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs/cmake" TYPE FILE FILES
-    "/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgsConfig.cmake"
-    "/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgsConfig-version.cmake"
+    "/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgsConfig.cmake"
+    "/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/catkin_generated/installspace/unitree_legged_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs" TYPE FILE FILES "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_msgs" TYPE FILE FILES "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_legged_msgs" TYPE DIRECTORY FILES "/monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/include/unitree_legged_msgs/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_legged_msgs" TYPE DIRECTORY FILES "/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/include/unitree_legged_msgs/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

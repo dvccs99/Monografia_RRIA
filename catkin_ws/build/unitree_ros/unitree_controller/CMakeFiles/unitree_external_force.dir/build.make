@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /monografia/catkin_ws/src
+CMAKE_SOURCE_DIR = /catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /monografia/catkin_ws/build
+CMAKE_BINARY_DIR = /catkin_ws/build
 
 # Include any dependencies generated for this target.
 include unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/depend.make
@@ -58,17 +58,17 @@ include unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/pro
 include unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/flags.make
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/flags.make
-unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o: /monografia/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/monografia/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o -c /monografia/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
+unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o: /catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o"
+	cd /catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o -c /catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_external_force.dir/src/external_force.cpp.i"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /monografia/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp > CMakeFiles/unitree_external_force.dir/src/external_force.cpp.i
+	cd /catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp > CMakeFiles/unitree_external_force.dir/src/external_force.cpp.i
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_external_force.dir/src/external_force.cpp.s"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /monografia/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp -o CMakeFiles/unitree_external_force.dir/src/external_force.cpp.s
+	cd /catkin_ws/build/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp -o CMakeFiles/unitree_external_force.dir/src/external_force.cpp.s
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o.requires:
 
@@ -88,62 +88,62 @@ unitree_external_force_OBJECTS = \
 # External object files for target unitree_external_force
 unitree_external_force_EXTERNAL_OBJECTS =
 
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/build.make
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libcontroller_manager.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libjoint_state_controller.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librealtime_tools.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librobot_state_publisher_solver.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libjoint_state_listener.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libkdl_parser.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/liburdf.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libclass_loader.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/libPocoFoundation.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libdl.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_bridge.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroslib.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librospack.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf2_ros.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libactionlib.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libmessage_filters.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroscpp.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libxmlrpcpp.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf2.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroscpp_serialization.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librostime.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libcpp_common.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libpthread.so
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/monografia/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force"
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_external_force.dir/link.txt --verbose=$(VERBOSE)
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/build.make
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libcontroller_manager.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libjoint_state_controller.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librealtime_tools.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librobot_state_publisher_solver.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libjoint_state_listener.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libkdl_parser.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/liburdf.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libclass_loader.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/libPocoFoundation.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libdl.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_bridge.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroslib.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librospack.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf2_ros.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libactionlib.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libmessage_filters.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroscpp.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libxmlrpcpp.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libtf2.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libroscpp_serialization.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/librostime.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /opt/ros/melodic/lib/libcpp_common.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libpthread.so
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/catkin_ws/devel/lib/unitree_controller/unitree_external_force: unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /catkin_ws/devel/lib/unitree_controller/unitree_external_force"
+	cd /catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_external_force.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/build: /monografia/catkin_ws/devel/lib/unitree_controller/unitree_external_force
+unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/build: /catkin_ws/devel/lib/unitree_controller/unitree_external_force
 
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/build
 
@@ -152,10 +152,10 @@ unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/requires: u
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/requires
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/clean:
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/unitree_external_force.dir/cmake_clean.cmake
+	cd /catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/unitree_external_force.dir/cmake_clean.cmake
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/clean
 
 unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/depend:
-	cd /monografia/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /monografia/catkin_ws/src /monografia/catkin_ws/src/unitree_ros/unitree_controller /monografia/catkin_ws/build /monografia/catkin_ws/build/unitree_ros/unitree_controller /monografia/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/DependInfo.cmake --color=$(COLOR)
+	cd /catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /catkin_ws/src /catkin_ws/src/unitree_ros/unitree_controller /catkin_ws/build /catkin_ws/build/unitree_ros/unitree_controller /catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/unitree_external_force.dir/depend
 

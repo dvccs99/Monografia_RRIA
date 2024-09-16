@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /monografia/catkin_ws/src
+CMAKE_SOURCE_DIR = /catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /monografia/catkin_ws/build
+CMAKE_BINARY_DIR = /catkin_ws/build
 
 # Utility rule file for _unitree_legged_msgs_generate_messages_check_deps_BmsCmd.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /monografia/catkin_ws/build
 include unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/progress.make
 
 unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd:
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_legged_msgs /monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg 
+	cd /catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_legged_msgs /catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg 
 
 _unitree_legged_msgs_generate_messages_check_deps_BmsCmd: unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd
 _unitree_legged_msgs_generate_messages_check_deps_BmsCmd: unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/build.make
@@ -67,10 +67,10 @@ unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_m
 .PHONY : unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/build
 
 unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/clean:
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/cmake_clean.cmake
+	cd /catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/cmake_clean.cmake
 .PHONY : unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/clean
 
 unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/depend:
-	cd /monografia/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /monografia/catkin_ws/src /monografia/catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs /monografia/catkin_ws/build /monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs /monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /catkin_ws/src /catkin_ws/src/unitree_ros/unitree_ros_to_real/unitree_legged_msgs /catkin_ws/build /catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs /catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_ros/unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_BmsCmd.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /monografia/catkin_ws/src
+CMAKE_SOURCE_DIR = /catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /monografia/catkin_ws/build
+CMAKE_BINARY_DIR = /catkin_ws/build
 
 # Utility rule file for controller_manager_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messa
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
 
 unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/clean:
-	cd /monografia/catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /catkin_ws/build/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/clean
 
 unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/depend:
-	cd /monografia/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /monografia/catkin_ws/src /monografia/catkin_ws/src/unitree_ros/unitree_controller /monografia/catkin_ws/build /monografia/catkin_ws/build/unitree_ros/unitree_controller /monografia/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /catkin_ws/src /catkin_ws/src/unitree_ros/unitree_controller /catkin_ws/build /catkin_ws/build/unitree_ros/unitree_controller /catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/depend
 

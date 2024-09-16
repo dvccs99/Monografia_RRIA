@@ -1,4 +1,4 @@
-prefix=/monografia/catkin_ws/install
+prefix=/catkin_ws/install
 
 Name: aliengoZ1_description
 Description: Description of aliengoZ1_description

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /monografia/catkin_ws/src
+CMAKE_SOURCE_DIR = /catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /monografia/catkin_ws/build
+CMAKE_BINARY_DIR = /catkin_ws/build
 
 # Utility rule file for actionlib_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.
 .PHONY : unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 
 unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
-	cd /monografia/catkin_ws/build/unitree_ros/robots/a1_description && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /catkin_ws/build/unitree_ros/robots/a1_description && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend:
-	cd /monografia/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /monografia/catkin_ws/src /monografia/catkin_ws/src/unitree_ros/robots/a1_description /monografia/catkin_ws/build /monografia/catkin_ws/build/unitree_ros/robots/a1_description /monografia/catkin_ws/build/unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /catkin_ws/src /catkin_ws/src/unitree_ros/robots/a1_description /catkin_ws/build /catkin_ws/build/unitree_ros/robots/a1_description /catkin_ws/build/unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_ros/robots/a1_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/monografia/catkin_ws/src/unitree_ros/unitree_controller/src/servo.cpp" "/monografia/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_servo.dir/src/servo.cpp.o"
+  "/catkin_ws/src/unitree_ros/unitree_controller/src/servo.cpp" "/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_servo.dir/src/servo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/monografia/catkin_ws/src/unitree_ros/unitree_controller/include"
-  "/monografia/catkin_ws/devel/include"
+  "/catkin_ws/src/unitree_ros/unitree_controller/include"
+  "/catkin_ws/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
@@ -41,7 +41,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/monografia/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/DependInfo.cmake"
+  "/catkin_ws/build/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

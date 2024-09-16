@@ -1,8 +1,8 @@
-# Install script for directory: /monografia/catkin_ws/src
+# Install script for directory: /catkin_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/monografia/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,104 +49,104 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/_setup_util.py")
+   "/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE PROGRAM FILES "/monografia/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE PROGRAM FILES "/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/env.sh")
+   "/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE PROGRAM FILES "/monografia/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE PROGRAM FILES "/catkin_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/setup.bash;/monografia/catkin_ws/install/local_setup.bash")
+   "/catkin_ws/install/setup.bash;/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE FILE FILES
-    "/monografia/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/monografia/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE FILE FILES
+    "/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/setup.sh;/monografia/catkin_ws/install/local_setup.sh")
+   "/catkin_ws/install/setup.sh;/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE FILE FILES
-    "/monografia/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/monografia/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE FILE FILES
+    "/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/setup.zsh;/monografia/catkin_ws/install/local_setup.zsh")
+   "/catkin_ws/install/setup.zsh;/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE FILE FILES
-    "/monografia/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/monografia/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE FILE FILES
+    "/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/monografia/catkin_ws/install/.rosinstall")
+   "/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/monografia/catkin_ws/install" TYPE FILE FILES "/monografia/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/catkin_ws/install" TYPE FILE FILES "/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/monografia/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/a1_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/aliengo_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/b1_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/go1_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/laikago_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/unitree_legged_control/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/b2_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/b2w_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/go2_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/go2w_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/h1_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/unitree_controller/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/unitree_gazebo/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/aliengoZ1_description/cmake_install.cmake")
-  include("/monografia/catkin_ws/build/unitree_ros/robots/z1_description/cmake_install.cmake")
+  include("/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/a1_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/aliengo_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/b1_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/go1_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/laikago_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/unitree_ros_to_real/unitree_legged_msgs/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/unitree_legged_control/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/b2_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/b2w_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/go2_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/go2w_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/h1_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/unitree_controller/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/unitree_gazebo/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/aliengoZ1_description/cmake_install.cmake")
+  include("/catkin_ws/build/unitree_ros/robots/z1_description/cmake_install.cmake")
 
 endif()
 
@@ -158,5 +158,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/monografia/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
