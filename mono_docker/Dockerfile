@@ -16,6 +16,9 @@ RUN sudo apt-get install ros-melodic-joint-state-controller
 RUN sudo apt-get install ros-melodic-effort-controllers
 RUN sudo apt-get install ros-melodic-joint-trajectory-controller
 
+RUN sudo apt-get install python3-pip python3-yaml
+RUN sudo pip3 install rospkg catkin_pkg
+
 
 #  Source environments
 RUN echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc
