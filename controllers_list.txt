@@ -1,8 +1,0 @@
-go1_gazebo/RR, RL, FR, FL_(calf_controller, hip_controller, thigh_controller)
-type: unitree_legged_msgs/MotorCmd
-
-go1_gazebo/joint_states
-type: sensor_msgs/JointState
-
-/camera_face/color/image_raw
- 
