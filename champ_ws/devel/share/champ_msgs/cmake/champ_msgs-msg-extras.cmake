@@ -1,0 +1,2 @@
+set(champ_msgs_MESSAGE_FILES "/champ_ws/src/champ/champ_msgs/msg/Velocities.msg;/champ_ws/src/champ/champ_msgs/msg/PID.msg;/champ_ws/src/champ/champ_msgs/msg/Imu.msg;/champ_ws/src/champ/champ_msgs/msg/Point.msg;/champ_ws/src/champ/champ_msgs/msg/PointArray.msg;/champ_ws/src/champ/champ_msgs/msg/Joints.msg;/champ_ws/src/champ/champ_msgs/msg/Contacts.msg;/champ_ws/src/champ/champ_msgs/msg/ContactsStamped.msg;/champ_ws/src/champ/champ_msgs/msg/Pose.msg")
+set(champ_msgs_SERVICE_FILES "")
