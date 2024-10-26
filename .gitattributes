@@ -1,5 +1,6 @@
 # Exclude Makefiles, CMake and Lisp from stats
 Makefile linguist-ignore
+*.make linguist-ignore
 *.cmake linguist-vendored
 *.lisp linguist-vendored
 *.cl linguist-vendored
