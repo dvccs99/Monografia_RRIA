@@ -1,0 +1,5 @@
+# Exclude Makefiles, CMake and Lisp from stats
+Makefile linguist-vendored
+*.cmake linguist-vendored
+*.lisp linguist-vendored
+*.cl linguist-vendored

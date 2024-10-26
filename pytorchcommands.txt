@@ -12,7 +12,6 @@ pip3 install numpy==1.21.0
 pip3 install --upgrade pip setuptools wheel
 sudo apt-get install python3-dev
 pip3 install pandas
-pip3 install rospkg
 pip3 install stable-baselines3[extra]
 
 TESTAR TUDO ISSO
